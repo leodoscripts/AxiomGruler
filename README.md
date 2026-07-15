@@ -17,7 +17,7 @@ It uses **manual mapping** to load your DLL directly into the game, then **insta
 - ✅ **Insanely low resource usage** – near‑zero CPU and RAM during injection; the injector exits immediately after loading the DLL, leaving only Minecraft running smoothly.  
 - ✅ **Works perfectly with Bedrock** – built specifically for the Windows `Minecraft.Windows.exe` (or UWP) process.  
 - ✅ **Open source & transparent** – rename `AxiomGRulerInjector.sh` to `.txt` and read every line. No hidden payloads.  
-- ✅ **Cleaner than everything else** – unlike **Feather** (or similar Java clients that dump work into temp folders), this injector leaves **no trace whatsoever**. After injection, it’s as if it was never there.
+- ✅ **Cleaner than everything else** – unlike **Fate** (or similar Bedrock clients that dump work into temp folders), this injector leaves **no trace whatsoever**. After injection, it’s as if it was never there.
 
 ---
 
@@ -60,16 +60,6 @@ The temporary PowerShell file exists for less than one second – not even a bli
 No permanent temp folders, no logs, no services, no junk.
 
 Far cleaner than any other client or injector that leaves its work lying around.
-
-⚖️ AxiomGRulerInjector vs. Other Clients (Including Feather)
-Aspect	AxiomGRulerInjector	Feather / Typical Clients
-Leaves temp files behind	❌ Never (self‑cleaning)	✅ Yes (stores work in %TEMP%)
-Performance after injection	✅ Unchanged – 0% overhead	Often runs extra services
-Ram / CPU usage	✅ Near‑zero (script exits)	Background memory drain
-Traceability	✅ Completely invisible	Leaves logs & file traces
-Open source	✅ Full source visible in .txt	Usually closed / obfuscated
-Injection method	✅ Manual mapping (most efficient)	Varies, often inferior
-There simply is no more optimized Bedrock injector. Period.
 
 📖 Viewing the Source Code
 Want to verify there’s nothing shady?
@@ -115,7 +105,7 @@ It uses **manual mapping** to load your DLL directly into the game, then **insta
 - ✅ **Insanely low resource usage** – near‑zero CPU and RAM during injection; the injector exits immediately after loading the DLL, leaving only Minecraft running smoothly.  
 - ✅ **Works perfectly with Bedrock** – built specifically for the Windows `Minecraft.Windows.exe` (or UWP) process.  
 - ✅ **Open source & transparent** – rename `Inject.sh` to `.txt` and read every line. No hidden payloads.  
-- ✅ **Cleaner than everything else** – unlike **Feather** (or similar Java clients that dump work into temp folders), this injector leaves **no trace whatsoever**. After injection, it’s as if it was never there.
+- ✅ **Cleaner than everything else** – unlike **Fate** (or similar Bedrock clients that dump work into temp folders), this injector leaves **no trace whatsoever**. After injection, it’s as if it was never there.
 
 ---
 
@@ -158,16 +148,6 @@ The temporary PowerShell file exists for less than one second – not even a bli
 No permanent temp folders, no logs, no services, no junk.
 
 Far cleaner than any other client or injector that leaves its work lying around.
-
-⚖️ AxiomGRulerInjector vs. Other Clients (Including Feather)
-Aspect	AxiomGRulerInjector	Feather / Typical Clients
-Leaves temp files behind	❌ Never (self‑cleaning)	✅ Yes (stores work in %TEMP%)
-Performance after injection	✅ Unchanged – 0% overhead	Often runs extra services
-Ram / CPU usage	✅ Near‑zero (script exits)	Background memory drain
-Traceability	✅ Completely invisible	Leaves logs & file traces
-Open source	✅ Full source visible in .txt	Usually closed / obfuscated
-Injection method	✅ Manual mapping (most efficient)	Varies, often inferior
-There simply is no more optimized Bedrock injector. Period.
 
 📖 Viewing the Source Code
 Want to verify there’s nothing shady?
