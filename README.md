@@ -25,14 +25,3 @@ Unlike traditional heavy injectors that run as compiled executables (`.exe`), **
 To run this injector on Windows, you only need one thing:
 *   **Git for Windows** (specifically **Git Bash** to execute the `.sh` file). 
     > *Note: Most developers and power users already have this installed! If you don't, you can grab it from [git-scm.com](https://git-scm.com/).*
-
----
-
-## 🚀 How to Use
-
-1. **Clone or Download** this repository.
-2. Place the **DLL** you want to inject into the same folder as `inject.sh`.
-3. Open **Git Bash** in this directory.
-4. Run **AxiomGRulerInjector**:
-   ```bash
-   ./inject.sh
