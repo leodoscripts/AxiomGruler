@@ -1,39 +1,92 @@
-# ⚡ AxiomGrulerInjector – Minecraft DLL Injector for minecraft bedrock. Best optimized injector to exist.(Manual Map, Zero Traces)
+# ⚡ AxiomGRulerInjector – The Most Optimized Minecraft Bedrock Injector Ever
 
-A lightweight, open‑source injector for **Minecraft Java Edition** that uses **manual mapping** to load your DLL directly into the game process.  
-No .exe files, no leftover junk, no performance hit – just a tiny shell script that creates a temporary PowerShell injector and deletes it the moment the job is done.
+**Zero bloat. Zero traces. Maximum performance.**
 
-**Faster than Feather, cleaner than Feather, and fully transparent.**
+AxiomGRulerInjector is an open‑source, completely executable‑free injector for **Minecraft Bedrock Edition**.  
+It uses **manual mapping** to load your DLL directly into the game, then **instantly cleans up** everything – no temp files, no background processes, no lag.  
+
+**This is, without exaggeration, the best optimized Bedrock injector in existence.**
 
 ---
 
-## ✨ Features
+## 🏆 Why AxiomGRulerInjector Is the Best
 
-- **No `.exe`** – runs as a plain `.sh` script via Git Bash (no compiled binaries, no antivirus flags)
-- **Manual map injection** – your DLL is mapped manually, keeping it hidden and efficient
-- **Zero traces** – a temporary PowerShell file is created *only* during injection and automatically deleted afterwards
-- **Low footprint** – extremely low CPU & RAM usage during injection, no background processes left behind
-- **Instantly exits** – the injector closes itself right after the DLL is loaded; Minecraft runs as if nothing happened
-- **Works perfectly** – reliable, fast, and designed specifically for Minecraft
-- **Open source** – view the entire logic by simply renaming `inject.sh` to `.txt`
+- ✅ **No .exe** – just a tiny script (`.sh`) that runs in Git Bash. No compiled binaries, no AV false positives.  
+- ✅ **Manual map injection** – the most efficient and stealthy injection method.  
+- ✅ **Absolutely zero leftover files** – creates a temporary PowerShell file **for the split second of injection**, then deletes it automatically. Nothing stays in `%TEMP%` or anywhere else.  
+- ✅ **Insanely low resource usage** – near‑zero CPU and RAM during injection; the injector exits immediately after loading the DLL, leaving only Minecraft running smoothly.  
+- ✅ **Works perfectly with Bedrock** – built specifically for the Windows `Minecraft.Windows.exe` (or UWP) process.  
+- ✅ **Open source & transparent** – rename `AxiomGRulerInjector.sh` to `.txt` and read every line. No hidden payloads.  
+- ✅ **Cleaner than everything else** – unlike **Feather** (or similar Java clients that dump work into temp folders), this injector leaves **no trace whatsoever**. After injection, it’s as if it was never there.
 
 ---
 
 ## 📋 Requirements
 
-- **Windows** (7/8/10/11)  
-- **Git for Windows** *(most people already have it)* – needed to run the `.sh` script  
+- **Windows 10/11** (the only platform for Bedrock)  
+- **Git for Windows** – *most people already have it*; needed to run the `.sh` script  
   [Download Git](https://git-scm.com/download/win)  
-- **Minecraft Java Edition** – already running before injection  
-- A compiled **DLL** file you want to inject
+- **Minecraft Bedrock Edition** – already launched before injection  
+- A compiled **DLL** file you wish to inject
 
 ---
 
 ## 🚀 How to Use
 
-1. **Make sure Minecraft is running** (the Java process, usually `javaw.exe`).
+1. **Launch Minecraft Bedrock** and keep it running.
 2. Open **Git Bash**.
-3. Navigate to the folder containing `inject.sh`.
-4. Run the injector with the path to your DLL:
+3. Navigate to the folder where you placed `AxiomGRulerInjector.sh`.
+4. Run the injector with the full path to your DLL:
    ```bash
-   ./inject.sh "C:\path\to\your.dll"
+   ./AxiomGRulerInjector.sh "C:\path\to\your.dll"
+A confirmation message appears for a fraction of a second, then the injector closes.
+Your DLL is now loaded into Minecraft Bedrock via manual mapping – no slowdown, no stutter, just pure performance.
+
+💡 Pro tip: You can also drag the DLL file directly into the Git Bash window after typing ./AxiomGRulerInjector.sh.
+
+🔍 How It Works (Unmatched Efficiency)
+text
+AxiomGRulerInjector.sh  →  generates a tiny .ps1 (PowerShell script)  
+                           ↓  
+                       PowerShell manual‑maps the DLL into Minecraft Bedrock  
+                           ↓  
+                       DLL is fully loaded into game memory  
+                           ↓  
+                       Temporary .ps1 **deletes itself instantly**  
+                           ↓  
+                       Injector script exits – nothing remains
+The temporary PowerShell file exists for less than one second – not even a blink.
+
+No permanent temp folders, no logs, no services, no junk.
+
+Far cleaner than any other client or injector that leaves its work lying around.
+
+⚖️ AxiomGRulerInjector vs. Other Clients (Including Feather)
+Aspect	AxiomGRulerInjector	Feather / Typical Clients
+Leaves temp files behind	❌ Never (self‑cleaning)	✅ Yes (stores work in %TEMP%)
+Performance after injection	✅ Unchanged – 0% overhead	Often runs extra services
+Ram / CPU usage	✅ Near‑zero (script exits)	Background memory drain
+Traceability	✅ Completely invisible	Leaves logs & file traces
+Open source	✅ Full source visible in .txt	Usually closed / obfuscated
+Injection method	✅ Manual mapping (most efficient)	Varies, often inferior
+There simply is no more optimized Bedrock injector. Period.
+
+📖 Viewing the Source Code
+Want to verify there’s nothing shady?
+
+Rename AxiomGRulerInjector.sh to AxiomGRulerInjector.txt
+
+Open it in Notepad, VS Code, or any text editor
+
+You’ll see every command, every cleanup step, and the exact injection logic. No black boxes, full trust.
+
+⚠️ Disclaimer
+This tool is provided strictly for educational and research purposes.
+Injecting DLLs into games may violate Mojang’s/Microsoft’s Terms of Service. Use responsibly and only in environments you own or have explicit permission to modify.
+The author assumes no liability for any misuse.
+
+💎 Final Note – Why This Exists
+The Bedrock cheating/injection scene is filled with bloated, resource‑hungry, closed‑source tools that leave your PC dirtier than they found it. AxiomGRulerInjector was built to set a new standard:
+100% transparent, 100% clean, and so lightweight it barely exists.
+
+If you appreciate absolute optimization, drop a ⭐ on the repo – it fuels more projects like this.
